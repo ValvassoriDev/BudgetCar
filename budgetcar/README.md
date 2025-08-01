@@ -29,7 +29,7 @@ A interface utiliza um sistema de grid com cards que exibem:
 - **CSS3 (customizado, sem frameworks)**
 - **Google Gemini API** (IA generativa)
 - **Fetch API**
-- **Vite** (opcional, caso tenha sido usado no setup)
+- **Vite** 
 
 ---
 
