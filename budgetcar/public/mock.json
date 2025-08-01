@@ -1,0 +1,164 @@
+[
+  {
+    "nome": "Gol",
+    "marca": "Volkswagen",
+    "ano": 2014,
+    "fipe_min": 28974.00,
+    "pontos_positivos": "Robustez mecânica, peças baratas, ampla rede de assistência.",
+    "defeitos_cronicos": "Susceptível à ferrugem, suspensão dura, interior simples.",
+    "imagem": "/img/gol.jpg"
+  },
+  {
+    "nome": "Palio",
+    "marca": "Fiat",
+    "ano": 2015,
+    "fipe_min": 26214.00,
+    "pontos_positivos": "Econômico, manutenção acessível, custo-benefício para urbano.",
+    "defeitos_cronicos": "Panela de óleo do motor 1.0 com vazamentos, elétrica frágil, baixa segurança.",
+    "imagem": "/img/palio.jpg"
+  },
+  {
+    "nome": "Celta",
+    "marca": "Chevrolet",
+    "ano": 2014,
+    "fipe_min": 24593.00,
+    "pontos_positivos": "Muito leve, consumo baixo, manutenção simples e abundância de peças.",
+    "defeitos_cronicos": "Conforto mínimo, ruídos altos, segurança extremamente limitada.",
+    "imagem": "/img/Celta.jpg"
+  },
+  {
+    "nome": "Ka",
+    "marca": "Ford",
+    "ano": 2016,
+    "fipe_min": 39586.00,
+    "pontos_positivos": "Leve, econômico, fácil de manobrar, manutenção barata.",
+    "defeitos_cronicos": "Termostática plástica propensa a falhas, superaquecimento, fragilidade em arrefecimento.",
+    "imagem": "/img/ka.webp"
+  },
+  {
+    "nome": "Onix",
+    "marca": "Chevrolet",
+    "ano": 2016,
+    "fipe_min": 44145.00,
+    "pontos_positivos": "Consumo eficiente no 1.0, multimídia MyLink intuitiva, bom isolamento acústico.",
+    "defeitos_cronicos": "Histórico de falhas no turbo em versões superiores, bugs eletrônicos eventuais.",
+    "imagem": "/img/onix.jpg"
+  },
+  {
+    "nome": "HB20",
+    "marca": "Hyundai",
+    "ano": 2016,
+    "fipe_min": 43648.00,
+    "pontos_positivos": "Design moderno, boa revenda, motor 1.0 confiável e econômico.",
+    "defeitos_cronicos": "Câmbio com engates bruscos em automático, painel sensível à umidade e ruídos internos.",
+    "imagem": "/img/hb20.webp"
+  },
+  {
+    "nome": "Uno",
+    "marca": "Fiat",
+    "ano": 2015,
+    "fipe_min": 27000.00,
+    "pontos_positivos": "Compacto, econômico, manutenção simples e baixo custo de seguro.",
+    "defeitos_cronicos": "Acabamento frágil, espaço traseiro reduzido, desconforto em estrada.",
+    "imagem": "/img/uno.jpg"
+  },
+  {
+    "nome": "Fiesta",
+    "marca": "Ford",
+    "ano": 2015,
+    "fipe_min": 28000.00,
+    "pontos_positivos": "Boa dirigibilidade, motor durável, leveza facilita o uso urbano.",
+    "defeitos_cronicos": "Consumo um pouco elevado, painel com falhas elétricas e baixa disponibilidade de peças.",
+    "imagem": "/img/fiesta.jpg"
+  },
+  {
+    "nome": "Fit",
+    "marca": "Honda",
+    "ano": 2015,
+    "fipe_min": 45000.00,
+    "pontos_positivos": "Confiabilidade Honda, excelente espaço interno, assentos moduláveis.",
+    "defeitos_cronicos": "Suspensão mole, ruído no câmbio automático, central simples em versões básicas.",
+    "imagem": "/img/fit.jpg"
+  },
+  {
+    "nome": "March",
+    "marca": "Nissan",
+    "ano": 2016,
+    "fipe_min": 30000.00,
+    "pontos_positivos": "Compacto, econômico, consumo moderado e boa direção urbana.",
+    "defeitos_cronicos": "Acabamento básico, desempenho limitado em subidas, estabilidade mediana.",
+    "imagem": "/img/march.webp"
+  },
+  {
+    "nome": "Classic",
+    "marca": "Chevrolet",
+    "ano": 2013,
+    "fipe_min": 20000.00,
+    "pontos_positivos": "Manutenção baratíssima, consumo baixo, revenda simples.",
+    "defeitos_cronicos": "Interior extremamente básico, câmbio rústico, segurança nula.",
+    "imagem": "/img/classic.webp"
+  },
+  {
+    "nome": "Fox",
+    "marca": "Volkswagen",
+    "ano": 2015,
+    "fipe_min": 33000.00,
+    "pontos_positivos": "Boa dirigibilidade, interior prático, robustez e desempenho urbano equilibrado.",
+    "defeitos_cronicos": "Suspensão que desgasta rápido, falhas elétricas isoladas, volante leve demais.",
+    "imagem": "/img/fox.jpg"
+  },
+  {
+    "nome": "Mobi",
+    "marca": "Fiat",
+    "ano": 2016,
+    "fipe_min": 28000.00,
+    "pontos_positivos": "Muito econômico, seguro e IPVA barato, ideal para uso urbano.",
+    "defeitos_cronicos": "Muito básico em termos de acabamento, ruídos internos, pouca estabilidade em altas velocidades.",
+    "imagem": "/img/mobi.jpg"
+  },
+  {
+    "nome": "Kwid",
+    "marca": "Renault",
+    "ano": 2017,
+    "fipe_min": 32000.00,
+    "pontos_positivos": "Baixíssimo custo de aquisição e manutenção, economia elevada, ideal para cidade.",
+    "defeitos_cronicos": "Acabamento muito simples, segurança reduzida, ruídos e desconforto em viagens longas.",
+    "imagem": "/img/kwid.webp"
+  },
+  {
+    "nome": "Sandero",
+    "marca": "Renault",
+    "ano": 2016,
+    "fipe_min": 35000.00,
+    "pontos_positivos": "Espaço interno acima da média, suspensão macia, manutenção barata.",
+    "defeitos_cronicos": "Material interno simples, acabamento rústico e baixa eficiência em consumo urbano.",
+    "imagem": "/img/sandero.webp"
+  },
+  {
+    "nome": "Etios",
+    "marca": "Toyota",
+    "ano": 2017,
+    "fipe_min": 40000.00,
+    "pontos_positivos": "Alta confiabilidade, consumo baixo, valor de revenda forte.",
+    "defeitos_cronicos": "Interior simples, ruído de suspensão em ruas esburacadas, central básica.",
+    "imagem": "/img/etios.jpg"
+  },
+  {
+    "nome": "Versa",
+    "marca": "Nissan",
+    "ano": 2017,
+    "fipe_min": 42000.00,
+    "pontos_positivos": "Espaço interno generoso, porta-malas grande para categoria, bom conforto.",
+    "defeitos_cronicos": "Acabamento simples, consumo um pouco elevado com etanol, direção sem firmeza em estrada.",
+    "imagem": "/img/versa.jpg"
+  },
+  {
+    "nome": "C3",
+    "marca": "Citroën",
+    "ano": 2016,
+    "fipe_min": 36000.00,
+    "pontos_positivos": "Conforto da suspensão, visual estilizado, consumo honesto.",
+    "defeitos_cronicos": "Falhas elétricas intermitentes, qualidade de acabamento inferior a concorrentes.",
+    "imagem": "/img/c3.jpg"
+  }
+]
