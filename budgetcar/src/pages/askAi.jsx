@@ -1,9 +1,7 @@
-
 import { useState } from "react";
 import "./Perguntar.css";
 import showdown from "showdown";
 import { useNavigate } from "react-router-dom";
-
 
 const Perguntar = () => {
   const [apiKey, setApiKey] = useState("");
@@ -12,7 +10,6 @@ const Perguntar = () => {
   const [resposta, setResposta] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-
 
   const markdownToHTML = (text) => {
     const converter = new showdown.Converter();
@@ -67,7 +64,8 @@ ${pergunta}
       });
 
       const data = await res.json();
-      const respostaIA = data?.candidates?.[0]?.content?.parts?.[0]?.text || "Erro na resposta.";
+      const respostaIA =
+        data?.candidates?.[0]?.content?.parts?.[0]?.text || "Erro na resposta.";
       setResposta(markdownToHTML(respostaIA));
     } catch (error) {
       console.error("Erro ao perguntar:", error);
@@ -78,9 +76,8 @@ ${pergunta}
   };
 
   return (
-    
-      <div>
-          <div className="header-pages">
+    <div>
+      <div className="header-pages">
         <button className="button-pages" onClick={() => navigate("/")}>
           Home
         </button>
@@ -88,41 +85,49 @@ ${pergunta}
           Pergunte a IA
         </button>
       </div>
-    <div className="perguntar-container">
-      <h1>Assistente de Veículos</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="password"
-          placeholder="API Key do Gemini"
-          value={apiKey}
-          onChange={(e) => setApiKey(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="Nome do carro (ex: Gol)"
-          value={carro}
-          onChange={(e) => setCarro(e.target.value)}
-        />
-        <input
-          type="text"
-          placeholder="Sua pergunta"
-          value={pergunta}
-          onChange={(e) => setPergunta(e.target.value)}
-        />
-        <button type="submit" disabled={loading}>
-          {loading ? "Perguntando..." : "Perguntar"}
-        </button>
-      </form>
+      <div className="perguntar-container">
+        <h1>Assistente de Veículos</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="password"
+            placeholder="API Key do Gemini"
+            value={apiKey}
+            onChange={(e) => setApiKey(e.target.value)}
+          />
+          <input
+            type="text"
+            placeholder="Nome do carro (ex: Gol)"
+            value={carro}
+            onChange={(e) => setCarro(e.target.value)}
+          />
+          <input
+            type="text"
+            placeholder="Sua pergunta"
+            value={pergunta}
+            onChange={(e) => setPergunta(e.target.value)}
+          />
+          <button type="submit" disabled={loading}>
+            {loading ? "Perguntando..." : "Perguntar"}
+          </button>
+        </form>
 
-      {resposta && (
-        <div
-          className="resposta"
-          dangerouslySetInnerHTML={{ __html: resposta }}
-        />
-      )}
-    </div>
+        {resposta && (
+          <div
+            className="resposta"
+            dangerouslySetInnerHTML={{ __html: resposta }}
+          />
+        )}
+        <div>
+          <p>Não possui uma API KEY?</p>
+            <a href="https://aistudio.google.com/app/apikey" target="_blank">
+            <button>Clique Aqui</button>
+            </a>
+        </div>
+      </div>
     </div>
   );
 };
 
 export default Perguntar;
+
+
