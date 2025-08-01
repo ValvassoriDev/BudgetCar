@@ -33,6 +33,16 @@ A interface utiliza um sistema de grid com cards que exibem:
 
 ---
 
+## 🔐 API Gemini
+A funcionalidade "Perguntar à IA" usa o modelo gemini-2.5-flash da Google. Para usá-la, você deve obter uma chave de API e inserir no campo indicado.
+
+---
+
+## 📌 Status
+🚧 Em desenvolvimento — melhorias contínuas na responsividade, acessibilidade e UX.
+
+---
+
 ## 🚀 Como rodar o projeto
 
 ```bash
@@ -63,8 +73,3 @@ budgetcar/
 ├── Home.css                  # Estilo da página principal
 └── assets/                   # Imagens dos carros
 
-🔐 API Gemini
-A funcionalidade "Perguntar à IA" usa o modelo gemini-2.5-flash da Google. Para usá-la, você deve obter uma chave de API e inserir no campo indicado.
-
-📌 Status
-🚧 Em desenvolvimento — melhorias contínuas na responsividade, acessibilidade e UX.
